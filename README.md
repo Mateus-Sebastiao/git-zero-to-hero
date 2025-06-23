@@ -6,66 +6,66 @@ Este é um projeto simples de aplicação web com **Flask**, criado para pratica
 
 Aprender sobre como trabalhar com **repositórios, branches, tags, commits, merge, pull requests local e remotamente**.
 
-## Comandos Git Fundamentais
+## Git Commands Essentials
 
 ### Creating repository:
 ```bash	
-    git init
+git init
 ```
 
 ## Check file status:
 ```bash	
-    git status
+git status
 ```
 
 ## Git staging:
 ```bash	
-    git add <file>
-  	git add --all
+git add <file>
+git add --all
 ```
 
 ## Unstaging files:
 ```bash
-  	git restore --staged <file>
+git restore --staged <file>
 ```
 
 ## Git Commit:
 ```bash
-  	git commit -m "<message>"
-  	git commit -a -m "<message>"
+git commit -m "<message>"
+git commit -a -m "<message>"
 ```
 
 ## View commit history:
 ```bash
-  	git log [options]
+git log [options]
 ```
 
 ## Viewing history:
 ```bash
-	git log
-	git log --oneline
-	git show <commit>
-	git diff
-	git diff --staged
+git log
+git log --oneline
+git show <commit>
+git diff
+git diff --staged
 ```
 
 ## Git branch:
 ```bash
-	git branch
-    git branch <branch_name>
-    git branch -d <branch_name>
-    git branch -D <branch_name>
-    git branch -m <old_branch_name> <new_branch_name>
-    git checkout <branch_name> or git switch <branch_name>
-    git checkout -b <branch_name>
+git branch
+git branch <branch_name>
+git branch -d <branch_name>
+git branch -D <branch_name>
+git branch -m <old_branch_name> <new_branch_name>
+git checkout <branch_name> or git switch <branch_name>
+git checkout -b <branch_name>
 ```
 
 ## Git merge:
 ```bash
-	git merge <branch_for_merging>
-    git merge --no-off <branch_for_merging>
-    git merge --squash >branch_for_merging>
-    git merge --abort
+git merge <branch_for_merging>
+git merge --no-off <branch_for_merging>
+git merge --squash >branch_for_merging>
+git merge --abort
 ```
 
 ## Tecnologias
